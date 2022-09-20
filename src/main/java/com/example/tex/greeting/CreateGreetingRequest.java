@@ -1,8 +1,10 @@
 package com.example.tex.greeting;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
+@AllArgsConstructor
 public class CreateGreetingRequest {
     String name, template;
 
