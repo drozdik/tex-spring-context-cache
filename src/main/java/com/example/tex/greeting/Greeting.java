@@ -1,6 +1,5 @@
-package com.example.tex;
+package com.example.tex.greeting;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -22,5 +21,14 @@ public class Greeting {
 
     public String greetingText() {
         return String.format(template, name);
+    }
+
+    public static Greeting notFoundStub() {
+        return new Greeting() {
+            @Override
+            public String greetingText() {
+                return "Sorry no greeting found for you :(";
+            }
+        };
     }
 }

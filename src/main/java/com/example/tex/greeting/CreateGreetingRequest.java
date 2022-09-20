@@ -1,4 +1,4 @@
-package com.example.tex;
+package com.example.tex.greeting;
 
 import lombok.Data;
 
