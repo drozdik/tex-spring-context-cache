@@ -2,4 +2,4 @@ next task
 write integration test for each controller, turn on spring cache logs, check that only one context created
 when both tests are run, then make one test run under 'test' profile, run - check that two spring context were created
 
-1 - write integration test for greeting controller for saving
+> write second test
